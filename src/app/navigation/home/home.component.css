@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-contant {
+    justify-content: space-around;
+}
+
+.brand-name {
+    margin-left: 30px;
+    color: white;
+}
+
+.i-center {
+    align-items: center;
+}
+
+.searchbar {
+    border-radius: 25px;
+    border-style: none;
+    padding: 6px 5px;
+    margin-left: 85px;
+
+}
+
+.btn {
+    background-color: #008B8B;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.about {
+    text-decoration: none;
+    color: white;
+    background-color: #008B8B;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+  
+}
+
+.about:hover {
+    background-color: #333;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+  
+}
+
+.home-container {
+    margin-top: 5px;
+
+}
+
+.navbar {
+    background-color: #008B8B;
+    padding-bottom: 15px;
+}
+
+
+/* doller exchgange  */
+.mymoney {
+    margin-top: 50px;
+    margin-left: 350px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 52%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 7px 1px gray;
+}
+
+.ind-rupees {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.final-value {
+    color: white;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.rupees {
+    width: 30px;
+}
+
+.date {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 650px) {
+    .media {
+        width: 100%;
+        display: block;
+    }
+}
+

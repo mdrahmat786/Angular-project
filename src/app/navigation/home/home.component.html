@@ -1,0 +1,25 @@
+<section class="navbar">
+    <p class="date">{{date | date :'short'}}</p>
+    <div class="home-container media">
+        <div class="  content d-flex j-contant  i-center media">
+            <h2 class=" brand-name ">Facts.and.knowladge media</h2>
+            <input class="searchbar media" type="text" placeholder="Search">
+            <a class="about media" routerLink="/home" routerLinkActive="active">Home</a>
+            <a class="about media" routerLink="/about-us" routerLinkActive="active">About</a>
+            <a class="about media" routerLink="/contactus" routerLinkActive="active">Contact Us</a>
+            <button class="btn media" routerLink="/sing-up" routerLinkActive="active">Sing Up</button>
+        </div>
+    </div>
+</section>
+
+<div class="mymoney media">
+    <h1> US-$ Dollar To INR-Rupees Value.</h1>
+    <input class="ind-rupees media" type="number" [(ngModel)]="amount"><br>
+    <div class="final-value d-flex i-center media">
+        <p> USD $ To INR Rupees=</p>
+        <img class="rupees" src="/assets/image/rupees2.png" alt="">
+        <p [ngStyle]="{'color':'white','font-size':'40px'}">{{amount| dollervalue}}</p>
+    </div>
+</div>
+<!-- <input type="text" name="" id="doller" > -->
+<!-- <p>{{Value | currency:'INR'}}</p> -->
